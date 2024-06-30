@@ -23,12 +23,12 @@ const Navbar = ({className} : {className ?: string}) => {
     ]
     return (
         <nav className={cn("py-10 flex justify-between animate-move-down" , className)}>
-            <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2'>Vipin Kiroula 👩🏻‍💻</h1>
+            <h1 className='text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2 text-white'>Vipin Kiroula 👩🏻‍💻</h1>
             <div className='flex gap-5 items-center'>
                 {socialProfiles.map((social, index) => {
                     const Icon = social.icon;
                     return <Link href={social.link} key={index} aria-label={social.label}>
-                        <Icon className='w-5 h-5 hover:scale-125 transition-all'/>
+                        <Icon className='w-5 h-5 hover:scale-125 transition-all text-white'/>
                     </Link>
                 })}
             </div>

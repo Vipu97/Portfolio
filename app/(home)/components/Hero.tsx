@@ -31,8 +31,8 @@ const Hero = () => {
                 <h1 className='text-3xl sm:text-4xl lg:text-6xl font-bold'>Nice to meet you! 👋 <br />
                     <span className='underline underline-offset-8 decoration-green-500'>{"I'm Vipin Kiroula"}</span>
                 </h1>
-                <p className='md:w-96 text-lg text-gray-300'>{"Based in New Delhi,India. I'm a Fullstack developer passionate about building a modern web application that users love."}</p>
-                <Link href={"mailto:vipinkiroula@gmail.com"} className='inline-block group'>
+                <p className='md:w-96 text-lg text-gray-300'>{"Based in New Delhi, India. I'm a Fullstack developer passionate about building a modern web application that users love."}</p>
+                <Link href={"mailto:vipinkiroula@gmail.com"} className='inline-block group hover:scale-105 transition-all'>
                     <Title text={'Contact Me 📮'} />
                 </Link>
             </div>
@@ -50,7 +50,7 @@ const Hero = () => {
                     </div>
                     <div className='glow absolute top-[40%] right-1/2 -z-10'></div>
                 </div>
-                <div className='absolute bottom-5 sm:bottom-14 left-0 sm:-left-10' onClick={handleDownloadResume}>
+                <div className='absolute bottom-5 sm:bottom-14 left-0 sm:-left-10 hover:scale-105 transition-all' onClick={handleDownloadResume}>
                     <MovingBorderButton borderRadius='0.5rem' className='p-2.5 font-semibold'>
                         <p>💼 See My Resume</p>
                     </MovingBorderButton>
