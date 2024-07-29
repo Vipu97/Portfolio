@@ -40,7 +40,7 @@ const Project = () => {
             tech: [SiReact, SiCss3, SiHtml5, SiJavascript],
             link: "https://weather-app-mauve-phi-94.vercel.app",
             cover: "/project-5.png",
-            background: "rgb(253 224 71)",
+            background: "#fce774",
         },
         {
             title: "Pig Game",
